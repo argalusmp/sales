@@ -1,0 +1,97 @@
+[
+  {
+    "id": "1",
+    "name": "Hydraulic Main Pump Komatsu PC200-8",
+    "slug": "hydraulic-main-pump-komatsu-pc200-8",
+    "part_number": "708-2L-00600",
+    "category": "Hydraulic",
+    "description": "Pompa hidrolik utama untuk excavator Komatsu PC200-8. Komponen OEM bergaransi resmi, dirancang untuk memberikan performa optimal dan umur panjang pada kondisi operasi berat. Cocok untuk penggantian OEM langsung tanpa modifikasi.",
+    "specs": [
+      { "label": "Flow Rate", "value": "2 x 115 L/min" },
+      { "label": "Max Pressure", "value": "345 bar" },
+      { "label": "Displacement", "value": "2 x 112 cc/rev" },
+      { "label": "Speed Range", "value": "500 – 2200 RPM" },
+      { "label": "Weight", "value": "±98 kg" },
+      { "label": "Kompatibilitas", "value": "Komatsu PC200-8, PC200LC-8" },
+      { "label": "Origin", "value": "Japan OEM" }
+    ],
+    "status": "available",
+    "image_url": "https://placehold.co/800x600/0a1628/f97316?text=Hydraulic+Pump&font=slab"
+  },
+  {
+    "id": "2",
+    "name": "Engine Oil Filter Caterpillar 320D",
+    "slug": "engine-oil-filter-caterpillar-320d",
+    "part_number": "1R-0739",
+    "category": "Engine",
+    "description": "Filter oli mesin original Caterpillar untuk excavator 320D series. Menggunakan media filtrasi berlapis yang mampu menangkap partikel kotoran hingga 4 mikron, melindungi komponen mesin dari keausan dini dan memperpanjang interval penggantian oli.",
+    "specs": [
+      { "label": "Thread Size", "value": "M22 x 1.5" },
+      { "label": "OD Filter", "value": "108 mm" },
+      { "label": "Height", "value": "203 mm" },
+      { "label": "Bypass Pressure", "value": "2.41 – 3.45 bar" },
+      { "label": "Filtration Rating", "value": "4 mikron (Beta 4 = 200)" },
+      { "label": "Kompatibilitas", "value": "CAT 320D, 323D, 324D, 325D" },
+      { "label": "Origin", "value": "USA OEM" }
+    ],
+    "status": "available",
+    "image_url": "https://placehold.co/800x600/0a1628/f97316?text=Oil+Filter&font=slab"
+  },
+  {
+    "id": "3",
+    "name": "Track Link Assembly Komatsu PC200-7",
+    "slug": "track-link-assembly-komatsu-pc200-7",
+    "part_number": "20Y-32-00011",
+    "category": "Undercarriage",
+    "description": "Rakitan track link (rantai penggerak) undercarriage untuk excavator Komatsu PC200-7. Terbuat dari baja karbon tinggi yang telah melalui proses heat treatment untuk ketahanan aus maksimum. Tersedia dalam satu set lengkap 49 mata.",
+    "specs": [
+      { "label": "Jumlah Link", "value": "49 link / set" },
+      { "label": "Pitch", "value": "190 mm" },
+      { "label": "Lebar Shoe", "value": "600 mm (std)" },
+      { "label": "Material", "value": "High Carbon Steel, HRC 40-48" },
+      { "label": "Berat / Set", "value": "±520 kg" },
+      { "label": "Kompatibilitas", "value": "Komatsu PC200-7, PC200LC-7" },
+      { "label": "Origin", "value": "Japan / Korea OEM" }
+    ],
+    "status": "indent",
+    "image_url": "https://placehold.co/800x600/0a1628/f97316?text=Track+Link&font=slab"
+  },
+  {
+    "id": "4",
+    "name": "Alternator 24V Hitachi EX200-5",
+    "slug": "alternator-24v-hitachi-ex200-5",
+    "part_number": "4347539",
+    "category": "Electrical",
+    "description": "Alternator / dinamo ampere 24V untuk excavator Hitachi EX200-5. Komponen electrical sistem pengisian baterai yang memastikan semua sistem elektrikal mesin berjalan optimal. Original replacement part dengan garansi 6 bulan.",
+    "specs": [
+      { "label": "Tegangan", "value": "24V DC" },
+      { "label": "Arus Output", "value": "35 Ampere" },
+      { "label": "Daya", "value": "840 Watt" },
+      { "label": "Tipe Mounting", "value": "Ear Mount, 3 Baut" },
+      { "label": "Putaran Idle", "value": "1500 RPM (min)" },
+      { "label": "Kompatibilitas", "value": "Hitachi EX200-5, EX220-5, EX270-5" },
+      { "label": "Origin", "value": "Japan" }
+    ],
+    "status": "available",
+    "image_url": "https://placehold.co/800x600/0a1628/f97316?text=Alternator&font=slab"
+  },
+  {
+    "id": "5",
+    "name": "Final Drive Motor Komatsu PC200-8",
+    "slug": "final-drive-motor-komatsu-pc200-8",
+    "part_number": "20Y-27-00300",
+    "category": "Hydraulic",
+    "description": "Travel motor / final drive motor hidrolik untuk excavator Komatsu PC200-8. Menggerakkan sistem travel (pergerakan) unit secara penuh. Komponen remanufaktur berstandar OEM dengan jaminan kualitas dan presisi yang setara unit baru.",
+    "specs": [
+      { "label": "Displacement", "value": "2 x 58 cc/rev" },
+      { "label": "Max Speed", "value": "2750 RPM" },
+      { "label": "Max Torque", "value": "680 Nm" },
+      { "label": "Max Pressure", "value": "345 bar" },
+      { "label": "Berat", "value": "±62 kg" },
+      { "label": "Kompatibilitas", "value": "Komatsu PC200-8, PC200LC-8" },
+      { "label": "Kondisi", "value": "Remanufaktur / Reman" }
+    ],
+    "status": "indent",
+    "image_url": "https://placehold.co/800x600/0a1628/f97316?text=Final+Drive&font=slab"
+  }
+]

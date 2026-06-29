@@ -1,26 +1,85 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* =============================================
+   CUSTOM DESIGN SYSTEM — Tailwind CSS v4
+   ============================================= */
+@theme {
+  /* --- Brand: Deep Navy --- */
+  --color-navy-950: #05101E;
+  --color-navy-900: #0A1628;
+  --color-navy-800: #0F2040;
+  --color-navy-700: #1A3461;
+  --color-navy-600: #254782;
+  --color-navy-500: #305A9E;
+  --color-navy-400: #4A7BC4;
+
+  /* --- Brand: Safety Orange (Accent) --- */
+  --color-orange-700: #C2410C;
+  --color-orange-600: #EA580C;
+  --color-orange-500: #F97316;
+  --color-orange-400: #FB923C;
+  --color-orange-300: #FDC79A;
+  --color-orange-50:  #FFF7ED;
+
+  /* --- WhatsApp Green --- */
+  --color-wa-600: #1EBD57;
+  --color-wa-500: #25D366;
+  --color-wa-400: #4DDE82;
+
+  /* --- Steel / Neutral --- */
+  --color-steel-900: #0F172A;
+  --color-steel-800: #1E293B;
+  --color-steel-700: #334155;
+  --color-steel-600: #475569;
+  --color-steel-500: #64748B;
+  --color-steel-400: #94A3B8;
+  --color-steel-300: #CBD5E1;
+  --color-steel-200: #E2E8F0;
+  --color-steel-100: #F1F5F9;
+  --color-steel-50:  #F8FAFC;
+
+  /* --- Custom Keyframe Animations --- */
+  --animate-fade-up:    fade-up 0.6s ease both;
+  --animate-fade-in:    fade-in 0.5s ease both;
+  --animate-slide-left: slide-left 0.5s ease both;
 }
 
+/* Font: inlined so they reference Next.js CSS variable from font loader */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans:    var(--font-inter),  "Inter",  ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sora), "Sora", ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* =============================================
+   KEYFRAMES
+   ============================================= */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0);    }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
+
+@keyframes slide-left {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0);     }
+}
+
+/* =============================================
+   BASE STYLES
+   ============================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #F1F5F9; }
+::-webkit-scrollbar-thumb { background: #94A3B8; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #64748B; }
+
+/* Selection highlight */
+::selection { background-color: #F97316; color: #fff; }
