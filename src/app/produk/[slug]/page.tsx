@@ -30,7 +30,7 @@ export async function generateMetadata(
     description: product.description,
     keywords: [product.name, product.part_number, product.category, 'sparepart alat berat'],
     openGraph: {
-      title: `${product.name} | PT. Sarana Maju Teknik`,
+      title: `${product.name} | PT. Duta Laserindo Metal`,
       description: product.description,
       type: 'website',
     },

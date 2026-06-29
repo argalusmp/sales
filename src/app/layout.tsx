@@ -20,8 +20,8 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: {
-    default: "PT. Sarana Maju Teknik | Distributor Sparepart Alat Berat & Mesin Industri",
-    template: "%s | PT. Sarana Maju Teknik",
+    default: "PT. Duta Laserindo Metal | Distributor Sparepart Alat Berat & Mesin Industri",
+    template: "%s | PT. Duta Laserindo Metal",
   },
   description:
     "Distributor dan supplier sparepart alat berat terpercaya: Komatsu, Caterpillar, Hitachi, Volvo, dan merek terkemuka lainnya. Garansi keaslian, harga kompetitif, pengiriman cepat ke seluruh Indonesia.",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    siteName: "PT. Sarana Maju Teknik",
+    siteName: "PT. Duta Laserindo Metal",
   },
   robots: {
     index: true,
